@@ -23,7 +23,7 @@ git pull
 git checkout -b feature/my-new-feature
 ```
 
-![](assets/commit-graph.png)
+![](/assets/commit-graph.png)
 
 ## Git Flow Lifecycle
 ### 1. Create a feature branch
@@ -47,7 +47,7 @@ git push origin feature/my-new-feature
 ### 4. Create a Pull Request (PR)
 Open a PR to merge your feature branch into main. Your team will review the code, request changes, or approve the PR.
 
-![](assets/pr.png)
+![](/assets/pr.png)
 
 ## Why Pull Requests?
 Pull requests (PRs) offer many benefits:
@@ -57,16 +57,16 @@ Pull requests (PRs) offer many benefits:
 - They help ensure quality control by letting team members suggest improvements and find potential issues.
 
 
-![](assets/pr-diff.png)
+![](/assets/pr-diff.png)
 
-![](assets/pr-comments.png)
+![](/assets/pr-comments.png)
 
-![](assets/pr-review.png)
+![](/assets/pr-review.png)
 
 ## Merge Conflicts
 Merge conflicts occur when Git is unable to automatically combine changes made in different branches. This happens when two branches modify the same parts of the code in different ways.
 
-![](assets/merge-conflict.png)
+![](/assets/merge-conflict.png)
 
 ### Steps to resolve conflicts:
 
@@ -82,7 +82,7 @@ git commit -m "Resolve merge conflict"
 <aside>
 We'll be using a "merge" strategy for resolving conflicts. If prompted, please enter `git config pull.rebase false`.
 
-![](assets/config-merge.png)
+![](/assets/config-merge.png)
 </aside>
 
 ## Best Practices for Pull Requests and Code Reviews
