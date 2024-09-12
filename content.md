@@ -180,6 +180,12 @@ git status
   - Not quite. You only need to resolve the conflicts, not revert everything.
 {: .choose_all #merge_conflict_resolution title="Resolving Merge Conflicts" points="1" answer="[1,2,3]" }
 
+## Be patient
+Senior and Lead developers can be very busy so be patient, but make sure to reach out if you are waiting on a review.
+
+## 🤪 Fun Facts
+[Fun Facts](https://github.com/DPI-WE/fun-facts) is an index of fun facts. Follow the contribution guidelines to add your fun fact and practice your pull request skills.
+
 ---
 
 - Approximately how long (in minutes) did this lesson take you to complete?
