@@ -186,16 +186,16 @@ Senior and Lead developers can be very busy so be patient, but make sure to reac
 ## 🤪 Fun Facts
 [Fun Facts](https://github.com/DPI-WE/fun-facts) is an index of fun facts. Follow the contribution guidelines to add your fun fact and practice your pull request skills.
 
-- Enter your `https://github.com/DPI-WE/fun-facts/pull/<id>` pull request URL:
-- `https://github.com/DPI-WE/fun-facts/pull`
+- Did you create a pull request for `https://github.com/DPI-WE/fun-facts/`?
+- Yes
   - Great job!
-- any
-  - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/fun-facts/pull/<id>`
-{: .free_text #fun_facts_pull_request_url title="Fun Facts Pull Request URL" points="1" answer="1" }
+- No
+  -Please follow the contribution guidelines for the [Fun Facts](https://github.com/DPI-WE/fun-facts) repository.
+{: .choose_best #fun_facts_pull_request_url title="Fun Facts Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
 
-After you submit the Pull Request URL here, return to Canvas and submit the URL again in the assignment "Pull Request URL for Fun Fact".
+Return to Canvas and submit the pull request URL again in the assignment "Pull Request URL for Fun Fact".
 
 An instructor will provide additional feedback on your submission there.
 </div>
