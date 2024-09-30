@@ -190,7 +190,7 @@ Senior and Lead developers can be very busy so be patient, but make sure to reac
 - Yes
   - Great job!
 - No
-  -Please follow the contribution guidelines for the [Fun Facts](https://github.com/DPI-WE/fun-facts) repository.
+  - Please follow the contribution guidelines for the [Fun Facts](https://github.com/DPI-WE/fun-facts) repository.
 {: .choose_best #fun_facts_pull_request_url title="Fun Facts Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
