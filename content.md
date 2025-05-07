@@ -184,13 +184,13 @@ git status
 Senior and Lead developers can be very busy so be patient, but make sure to reach out if you are waiting on a review.
 
 ## 🤪 Fun Facts
-[Fun Facts](https://github.com/DPI-WE/fun-facts) is an index of fun facts. Follow the contribution guidelines to add your fun fact and practice your pull request skills.
+[Fun Facts](https://github.com/DPI-WE/pr-fun-facts) is an index of fun facts. Follow the contribution guidelines to add your fun fact and practice your pull request skills.
 
 - Did you create a pull request for `https://github.com/DPI-WE/fun-facts/`?
 - Yes
   - Great job!
 - No
-  - Please follow the contribution guidelines for the [Fun Facts](https://github.com/DPI-WE/fun-facts) repository.
+  - Please follow the contribution guidelines for the [Fun Facts](https://github.com/DPI-WE/pr-fun-facts) repository.
 {: .choose_best #fun_facts_pull_request_url title="Fun Facts Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
