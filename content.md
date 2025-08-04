@@ -1,6 +1,7 @@
 # Code Review & Pull Requests
 
 ## Why is Code Review Important?
+
 Code review is a crucial part of any development process because:
 
 - It promotes learning within the team, allowing team members to exchange knowledge and ideas.
@@ -10,6 +11,7 @@ Code review is a crucial part of any development process because:
 - And yes, it helps catch bugs too!
 
 ## Git Flow
+
 Git Flow is a branching model that helps organize the development workflow. Here’s a quick overview:
 
 - **Master or Main Branch**: This is the stable, production-ready branch.
@@ -23,13 +25,16 @@ git pull
 git checkout -b feature/my-new-feature
 ```
 
-![](/assets/commit-graph.png)
+![](assets/commit-graph.png)
 
 ## Git Flow Lifecycle
+
 ### 1. Create a feature branch
+
 Always branch from main to ensure you are working on the latest code.
 
 ### 2. Implement and commit changes
+
 After making your changes, stage and commit them:
 
 ```bash
@@ -38,6 +43,7 @@ git commit -m "Describe your changes"
 ```
 
 ### 3. Push your branch to the remote repository
+
 Push your work to a remote branch so that others can see it:
 
 ```bash
@@ -45,11 +51,13 @@ git push origin feature/my-new-feature
 ```
 
 ### 4. Create a Pull Request (PR)
+
 Open a PR to merge your feature branch into main. Your team will review the code, request changes, or approve the PR.
 
-![](/assets/pr.png)
+![](assets/pr.png)
 
 ## Why Pull Requests?
+
 Pull requests (PRs) offer many benefits:
 
 - They allow code review before changes are merged.
@@ -57,16 +65,17 @@ Pull requests (PRs) offer many benefits:
 - They help ensure quality control by letting team members suggest improvements and find potential issues.
 
 
-![](/assets/pr-diff.png)
+![](assets/pr-diff.png)
 
-![](/assets/pr-comments.png)
+![](assets/pr-comments.png)
 
-![](/assets/pr-review.png)
+![](assets/pr-review.png)
 
 ## Merge Conflicts
+
 Merge conflicts occur when Git is unable to automatically combine changes made in different branches. This happens when two branches modify the same parts of the code in different ways.
 
-![](/assets/merge-conflict.png)
+![](assets/merge-conflict.png)
 
 ### Steps to resolve conflicts:
 
@@ -80,12 +89,13 @@ git commit -m "Resolve merge conflict"
 ```
 
 <aside>
-We'll be using a "merge" strategy for resolving conflicts. If prompted, please enter `git config pull.rebase false`.
+  We'll be using a "merge" strategy for resolving conflicts. If prompted, please enter `git config pull.rebase false`.
 
-![](/assets/config-merge.png)
+  <img src="assets/config-merge.png" alt="config merge" />
 </aside>
 
 ## Best Practices for Pull Requests and Code Reviews
+
 Pull regularly from the `main` branch to keep your feature branch up to date and avoid large, complex merge conflicts:
 
 ```bash
@@ -181,9 +191,11 @@ git status
 {: .choose_all #merge_conflict_resolution title="Resolving Merge Conflicts" points="1" answer="[1,2,3]" }
 
 ## Be patient
+
 Senior and Lead developers can be very busy so be patient, but make sure to reach out if you are waiting on a review.
 
 ## 🤪 Fun Facts
+
 [Fun Facts](https://github.com/DPI-WE/pr-fun-facts) is an index of fun facts. Follow the contribution guidelines to add your fun fact and practice your pull request skills.
 
 - Did you create a pull request for `https://github.com/DPI-WE/fun-facts/`?
@@ -194,10 +206,9 @@ Senior and Lead developers can be very busy so be patient, but make sure to reac
 {: .choose_best #fun_facts_pull_request_url title="Fun Facts Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
+  Return to Canvas and submit the pull request URL again in the assignment "Pull Request URL for Fun Fact".
 
-Return to Canvas and submit the pull request URL again in the assignment "Pull Request URL for Fun Fact".
-
-An instructor will provide additional feedback on your submission there.
+  An instructor will provide additional feedback on your submission there.
 </div>
 
 ---
